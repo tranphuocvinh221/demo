@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phụ Kiện</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/filescript.js"></script>
+    <script>window.onload=function(){showCart();};</script>
+</head>
+<body class="bg-sp">
+    <header>
+        <div class="task-header"><!--thanh1-->
+            <div class="t-head"><!--logo-->
+                <a href="trangchu.html"><img src="./image/logo.jpg" alt="" id="logo-header"></a>
+            </div>
+            <div class="input-head one"><!--ô tk-->
+                    <input type="text" id="search" placeholder="Tìm kiếm...">
+                    <button class="bt fa fa-search"></button>
+            </div>
+            <div>
+                <i onclick="openCart()"class="fa fa-shopping-cart icon-pink"></i>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navi">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse task-header2" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0" id="header2-menu">
+                    <li><a href="trangchu.html">Trang Chủ</a></li>
+                    <li><a href="sanpham.html">Sản Phẩm</a></li>
+                    <li><a href="phukien.html">Phụ Kiện</a></li>
+                    <li><a href="dangnhap.html">Đăng Nhập</a></li>
+                    <li><a href="dangky.html">Đăng Ký</a></li>
+                    <li><a href="lienhe.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--nội dung-->
+    <article class="title">		
+        <div >
+            <h2 id="titl1" class="title-header">Linh Kiện</h2>
+        </div>
+    </article>
+    <article class="title-2">
+        <div id="icons">
+            <a href="#titl1" class="fa fa-microchip"></a>
+            <a href="#titl2" class="fa fa-mouse-pointer"></a>
+            <a href="#titl3" class="fa fa-keyboard-o"></a>
+            <a href="#titl4" class="fa fa-headphones"></a>
+        </div>
+    </article>
+    <main><!--line1-->
+        <article id="search">
+            <div id="access" class="container-fluid accessory">
+                <section class="row product">
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/gearvn-cong-chuyen-hyperdrive-4k-hdmi-6-in-1-usb-c-hub-gn233b-666_e4fe0815637b49a89e8219e9443cd3eb_large.webp" >
+                        <h2>Cổng chuyển HyperDrive 4K HDMI 6-in-1 USB-C...</h2>
+                        <b>Giá: 1.990.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk001" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk001')" class="btn btn-primary">Đặt hàng</button>
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/gearvn-cong-chuyen-hyperdrive-5-in-1-usb-c-hub-gn21b-666_168f1e5e76f44bb293a122f6b8a639f0_large.webp" >
+                        <h2>Cổng chuyển HyperDrive 5-in-1 USB-C Hub - HD21B</h2>
+                        <b>Giá: 1.190.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk002" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk002')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/hd-h8k_coverright_nocover_3000x3000_1_1920x1920_2x-1-600x600_1577715f01764455b773a56621fd9b90_large.webp" >
+                        <h2>Cổng chuyển HyperDriver USB-C to 8K 60Hz/4K 144Hz</h2>
+                        <b>Giá: 1.290.000 <sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk003" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk003')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/250_25109_31ldf5zf1bl__sy450_.jpg" >
+                        <h2>Sạc laptop Macbook New USB-C 29W MJ262ZA/A</h2>
+                        <b>Giá: 1.390.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk004" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk004')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                </section>
+                
+                <section class="row product">
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/250_284_2867_7151184986aed9f8f418938930271d37.jpg" >
+                        <h2>Sạc MTXT Lenovo 20V - 3.25A</h2>
+                        <b>Giá: 390.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk005" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk005')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/250_40278_sac_laptop_dell_h1.jpg" >
+                        <h2>Adapter MTXT Dell 19.5V-3.34A (CKN,65W)</h2>
+                        <b>Giá: 490.000 <sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk006" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk006')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/250_19813_dell_v3350_.jpg" >
+                        <h2>Pin laptop Dell V3350</h2>
+                        <b>Giá: 690.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk007" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk007')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/250_18125_pin_hp_cq42__1_.jpg" >
+                        <h2>Pin laptop HP CQ42/G42/DM4/G4/1035TU</h2>
+                        <b>Giá: 690.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk008" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk008')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                </section>
+                <section class="row product">
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/250_18129__kingston_ddr3_8gb_1600__haswell___1_.jpg" >
+                        <h2>RAM Laptop Kingston 8Gb DDR3 1600 (Haswell)</h2>
+                        <b>Giá: 1.190.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk009" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk009')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/250_47147_kingston_fury_impact_ddr5_8gb_4800_h2.jpg" >
+                        <h2>Bộ nhớ trong MTXT Kingston DDR5 8Gb 4800</h2>
+                        <b>Giá: 1.890.000 <sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk010" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk010')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/250_20775_____c___ng.jpg" >
+                        <h2>Ổ cứng MTXT Seagate 1Tb 5400rpm SATA3</h2>
+                        <b>Giá: 1.390.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk011" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk011')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/250_18047_western_scorpio_blue_1tb__1_.jpg" >
+                        <h2>Ổ cứng MTXT Western Digital Western Scorpio...</h2>
+                        <b>Giá: 1.390.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk012" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk012')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                </section>
+            </div>
+                <!--end-->
+                <article class="title">		
+                    <div >
+                        <h2 id="titl2" class="title-header">Chuột máy tính</h2>
+                    </div>
+                </article>
+                <div id="access2" class="container-fluid accessory">
+                <section class="row product" >
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/chuot-khong-day-genius-nx-7010-thumb2-600x600.jpeg" >
+                        <h2>Chuột Không dây Genius NX 7010</h2>
+                        <b>Giá: 200.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk013" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk013')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/chuot-khong-day-logitech-m190-thumb3-600x600.jpeg" >
+                        <h2>Chuột Không dây Logitech M190</h2>
+                        <b>Giá: 390.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk014" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk014')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/chuot-khong-day-dareu-lm115g-gau-panda-thumb3-600x600.jpeg" >
+                        <h2>Chuột Không dây DareU LM115G Gấu Panda</h2>
+                        <b>Giá: 245.000 <sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk015" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk015')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/chuot-khong-day-a4tech-fg20-xam-den-thumb-600x600.jpeg" >
+                        <h2>Chuột Không dây A4Tech FG20</h2>
+                        <b>Giá: 300.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk016" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk016')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                </section>  
+                <section class="row product"><!--line-->
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/chuot-khong-day-rapoo-m20-plus-thumb3-600x600.jpeg" >
+                        <h2>Chuột Không dây Rapoo M20 Plus</h2>
+                        <b>Giá: 200.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk017" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk017')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/chuot-khong-day-logitech-m190-thumb3-600x600.jpeg" >
+                        <h2>Chuột Không dây Logitech M190</h2>
+                        <b>Giá: 390.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk018" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk018')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/chuot-gaming-hyperx-pulsefire-surge-rgb-den-thumb1-600x600.jpeg" >
+                        <h2>Chuột Có dây Gaming HyperX Pulsefire Surge</h2>
+                        <b>Giá: 620.000 <sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk019" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk019')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/chuot-bluetooth-microsoft-arc-thumb3-600x600.jpeg" >
+                        <h2>Chuột Bluetooth Microsoft Arc</h2>
+                        <b>Giá: 2.205.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk020" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk020')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                </section>
+                </div>
+                <article class="title">		
+                    <div >
+                        <h2 id="titl3" class="title-header">Bàn Phím</h2>
+                    </div>
+                </article>
+                <div id="access3" class="container-fluid accessory">
+                <section class="row product"><!--line2-->
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/khong-day-dareu-ek807g-thumb2-600x600.jpeg" >
+                        <h2>Bàn Phím Không Dây DareU EK807G Đen</h2>
+                        <b>Giá: 666.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk021" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk021')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/bluetooth-dareu-ek868-thumb-600x600.jpeg" >
+                        <h2>Bàn Phím Bluetooth DareU EK868 Đen</h2>
+                        <b>Giá: 1.170.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk022" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk022')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/co-day-gaming-razer-huntsman-tournament-edition-thumb-600x600 (1).jpeg" >
+                        <h2>Bàn Phím Cơ Có Dây Gaming Razer Huntsman... </h2>
+                        <b>Giá: 3.550.000 <sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk023" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk023')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/khong-day-microsoft-all-in-one-media-n9z-00028-den-thumb-600x600.jpeg" >
+                        <h2>Bàn phím không dây Microsoft All-in-one...</h2>
+                        <b>Giá: 890.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk024" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk024')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                </section>
+                <section class="row product" >
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/co-co-day-gaming-rapoo-v500pro-vang-xanh-thumb-600x600.jpeg" >
+                        <h2>Bàn Phím Cơ Có Dây Gaming Rapoo V500Pro</h2>
+                        <b>Giá: 990.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk025" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk025')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/ban-phim-co-co-day-gaming-corsair-k63-den-thumb-600x600.jpeg" >
+                        <h2>Bàn Phím Cơ Có Dây Gaming Corsair K63...</h2>
+                        <b>Giá: 1.575.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk026" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk026')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/ban-phim-magic-keyboard-apple-mk2a3-thumb1-600x600.jpg" >
+                        <h2>Bàn phím Magic Keyboard Apple MK2A3 Trắng</h2>
+                        <b>Giá: 2.390.000 <sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk027" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk027')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <img src="./imgs/khong-day-logitech-k580-thumb-600x600.jpeg" >
+                        <h2>Bàn Phím Không Dây Bluetooth Logitech K580</h2>
+                        <b>Giá: 1.495.000<sup>đ</sup></b>
+                        <span class="add-cart">
+                            Số lượng:
+                            <input id="pk028" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                            <button onclick="addCart('pk028')" class="btn btn-primary">Đặt hàng</button>                                                    
+                        </span>
+                    </div>
+                </section>
+                </div>
+                <article class="title">		
+                    <div >
+                        <h2 id="titl4" class="title-header">Tai nghe - Loa</h2>
+                    </div>
+                </article>
+                    <div id="access5" class="container-fluid accessory">
+                    <section class="row product" >
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="./imgs/bluetooth-true-wireless-mozard-ts11-mini-avatar-1-1-600x600.jpg" >
+                            <h2>True Wireless Mozard TS11 mini</h2>
+                            <b>Giá: 530.000<sup>đ</sup></b>
+                            <span class="add-cart">
+                                Số lượng:
+                                <input id="pk029" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('pk029')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="./imgs/bluetooth-airpods-2-apple-mv7n2-imei-ava-600x600.jpg" >
+                            <h2>AirPods 2 Lightning Charge Apple MV7N2</h2>
+                            <b>Giá: 3.390.000<sup>đ</sup></b>
+                            <span class="add-cart">
+                                Số lượng:
+                                <input id="pk030" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/>
+                                <button onclick="addCart('pk030')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="./imgs/airpods-3-hop-sac-khong-day-thumb-600x600.jpeg" >
+                            <h2>True Wireless Realme Buds T100</h2>
+                            <b>Giá: 4.890.000 <sup>đ</sup></b>
+                            <span class="add-cart">
+                                Số lượng:
+                                <input id="pk031" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('pk031')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="./imgs/tai-nghe-bluetooth-true-wireless-vivo-air-xew25-thumb1-600x600.jpeg" >
+                            <h2>Tai nghe Bluetooth True Wireless VIVO Air XEW25</h2>
+                            <b>Giá: 300.000<sup>đ</sup></b>
+                            <span class="add-cart">
+                                Số lượng:
+                                <input id="pk032" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('pk032')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                    </section>
+                    
+                    <section class="row product"><!--line-->
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="./imgs/loa-bluetooth-sony-srs-xe200-thumb2-600x600.jpg" >
+                            <h2>Loa Bluetooth Sony SRS-XE200</h2>
+                            <b>Giá: 2.950.000<sup>đ</sup></b>
+                            <span class="add-cart">
+                                Số lượng:
+                                <input id="pk033" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('pk033')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="./imgs/loa-bluetooth-sony-srs-xe200-cam-thumb-600x600.jpg" >
+                            <h2>Loa Bluetooth Sony SRS-XE200 Cam </h2>
+                            <b>Giá: 2.950.000<sup>đ</sup></b>
+                            <span class="add-cart">
+                                Số lượng:
+                                <input id="pk034" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('pk034')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                        <div  class="col-sm-6 col-lg-3">
+                            <img src="./imgs/bluetooth-mozard-s21-ava-600x600.jpg" >
+                            <h2>Loa Bluetooth Mozard S21</h2>
+                            <b>Giá: 330.000 <sup>đ</sup></b>
+                                <span class="add-cart">
+                                Số lượng:
+                                <input id="pk035" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('pk035')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="./imgs/loa-bluetooth-mozard-h8030d-den-thumb-1-600x600.jpg" >
+                            <h2>Loa Bluetooth Mozard H8030D</h2>
+                            <b>Giá: 510.000<sup>đ</sup></b>
+                            <span class="add-cart">
+                                Số lượng:
+                                <input id="pk036" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('pk036')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                    </section>
+                </div>
+        </article>
+    </main>
+    <footer class="container-fluid">
+        <div id="container" class="row">
+            <div class="col-sm-12 col-md-4 column contact">
+                <h3>Liên hệ</h3>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <p>Khu II, Đ. 3/2, Xuân Khánh, Ninh Kiều, Cần Thơ</p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p>+840123456789</p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope-o"></i></span>
+                        <p>***@gmail.com</p>
+                    </ul>
+            </div>
+            <div class="col-sm-12 col-md-4 column links">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="trangchu.html">Trang Chủ</a></li>
+                    <li><a href="sanpham.html">Sản Phẩm</a></li>
+                    <li><a href="phukien.html">Phụ Kiện</a></li>
+                    <li><a href="dangnhap.html">Đăng Nhập</a></li>
+                    <li><a href="dangky.html">Đăng Ký</a></li>
+                    <li><a href="lienhe.html">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-4 column about">
+                <h3>Mạng xã hội</h3>
+                <ul class="social-icons">
+                    <li><a href="#" class="fa fa-facebook" style="font-size :20px;"></a></li>
+                    <li><a href="#" class="fa fa-instagram" style="font-size: 20px;"></a></li>
+                    <li><a href="#" class="fa fa-twitter" style="font-size: 20px;"></a></li>
+                    <li><a href="#" class="fa fa-pinterest" style="font-size: 20px;"></a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="#top" class="gotop"><img src="./imgs/ic-top.png"
+            width="50"></a></p>
+    </footer>
+    <script src="./bootstrap-5.2.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="./jQuery/jquery-3.6.1.min.js"></script>
+</body>
+</html>

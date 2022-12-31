@@ -1,0 +1,323 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sản phẩm</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/filescript.js"></script>
+        <script>window.onload=function(){showCart();};</script>
+    </head>
+    <body class="bg-sp">
+        <header>
+            <div class="task-header"><!--thanh1-->
+                <div class="t-head"><!--logo-->
+                    <a href="trangchu.html"><img src="./image/logo.jpg" alt="" id="logo-header"></a>
+                </div>
+                <div class="input-head one"><!--ô tk-->
+                        <input type="text" id="search" placeholder="Tìm kiếm...">
+                        <button class="bt fa fa-search"></button>
+                </div>
+                <div>
+                    <i onclick="openCart()"class="fa fa-shopping-cart icon-pink"></i>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navi">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse task-header2" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0" id="header2-menu">
+                        <li><a href="trangchu.html">Trang Chủ</a></li>
+                        <li><a href="sanpham.html">Sản Phẩm</a></li>
+                        <li><a href="phukien.html">Phụ Kiện</a></li>
+                        <li><a href="dangnhap.html">Đăng Nhập</a></li>
+                        <li><a href="dangky.html">Đăng Ký</a></li>
+                        <li><a href="lienhe.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--nội dung-->
+            <article class="title">		
+                <div >
+                    <h2 id="titl1" class="title-header">Asus</h2>
+                </div>
+            </article>
+            <article class="title-2">
+                <div class="logo">
+                    <a href="#titl1"><img src="image/asus.png" alt="" class="lg"></a>
+                    <a href="#titl2"><img src="image/lenovo.png" alt="" class="lg" id="lnv"></a>
+                    <a href="#titl3"><img src="image/acer.png" alt="" class="lg"></a>
+                </div>	
+            </article>
+        <main>		
+            <article>		
+                <div id="access search" class="container-fluid accessory">
+                    <section class="row product" >
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="image/Rog Strix G15.jpeg">
+                            <h2>Gaming Asus ROG Strix G15 G513IE-HN246W</h2>
+                            <p>
+                                CPU: AMD Ryzen™ 7-4800H <br>
+                                RAM: 8GB<br>
+                                Ổ cứng: 512GB SSD<br>
+                                VGA: NVIDIA Geforce RTX 3050 4GB
+                            </p>
+                            <b>Giá: 21.990.000vnđ</b>
+                            <span  class="add-cart">
+                                Số Lượng:
+                                <input id="sp001" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('sp001')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="image/vivobook_m7400qc_18.jpg">
+                            <h2>Asus Vivobook Pro 14X OLED M7400QC-KM013W</h2>
+                            <p>
+                                CPU: AMD Ryzen™ R5-5600H <br>
+                                RAM: 16GB<br>
+                                Ổ cứng: 512GB SSD <br>
+                                VGA: NVIDIA GeForce RTX 3050 4GB <br>
+                            </p>
+                            <b>Giá: 24.490.000vnđ</b>
+                            <span  class="add-cart">
+                                Số Lượng:
+                                <input id="sp002" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('sp002')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="image/zenbook_ux3402za_12.png">
+                            <h2>Asus Zenbook 14 OLED UX3402ZA-KM219W</h2>
+                            <p>
+                                CPU: Intel® Core™ i5-1240P<br>
+                                RAM: 16GB <br>
+                                Ổ cứng: 512GB SSD <br>
+                                VGA: Intel Iris Xe Graphics
+                            </p>
+                            <b>Giá: 24.990.000vnđ</b>
+                            <span  class="add-cart">
+                                Số Lượng:
+                                <input id="sp003" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('sp003')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="image/gaming_tuf_fx517ze_hn045w.png">
+                            <h2>Asus Gaming TUF FX517ZE-HN045W</h2>
+                            <p>
+                                CPU: Intel® Core™ i5-12450H <br>
+                                RAM: 8GB <br>
+                                Ổ cứng: 512GB SSD <br>
+                                VGA: NVIDIA GeForce RTX 3050 4GB
+                            </p>
+                            <b>Giá: 25.690.000vnđ</b>
+                            <span  class="add-cart">
+                                Số Lượng:
+                                <input id="sp004" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('sp004')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                    </section>
+                </div>   
+                <article class="title">		
+                    <div >
+                        <h2 id="titl2" class="title-header">Lenovo</h2>
+                    </div>
+                </article>
+                <div id="access2" class="container-fluid accessory">
+                    <section class="row product" >
+                        <div  class="col-sm-6 col-lg-3">
+                            <img src="image/lenovo_gaming_3_15ihu6_82k101b5vn.jpg">
+                            <h2>Lenovo IdeaPad Gaming 3 15IHU6 82K1004YVN</h2>
+                            <p>
+                                CPU: Intel® Core™ i5-11300H <br>
+                                RAM: 8GB <br>
+                                Ổ cứng: 512GB SSD <br>
+                                VGA: NVIDIA GeForce RTX 3050 4GB
+                            </p>
+                            <b>Giá: 23.990.000vnđ</b>
+                            <span  class="add-cart">
+                                Số Lượng:
+                                <input id="sp005" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('sp005')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                        <div  class="col-sm-6 col-lg-3">
+                            <img src="image/lenovo_ideapad_gaming_3_15iah7_82s90088vn.jpg">
+                            <h2>Lenovo IdeaPad Gaming 3 15IAH7 82S90088VN</h2>
+                            <p>
+                                CPU: Intel® Core™ i5-12500H <br>
+                                RAM: 8GB <br>
+                                Ổ cứng: 512GB SSD <br>
+                                VGA: NVIDIA GeForce RTX 3050 4GB
+                            </p>
+                            <b>Giá: 24.990.000vnđ</b>
+                            <span  class="add-cart">
+                                Số Lượng:
+                                <input id="sp006" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('sp006')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                        <div  class="col-sm-6 col-lg-3">
+                            <img src="image/IdeaPad_5_Pro_16ARH7_CT2_04.jpg">
+                            <h2>Lenovo IdeaPad 5 Pro 16ARH7 82SN003LVN</h2>
+                            <p>
+                                CPU: AMD Ryzen™ 5-6600HS <br>
+                                RAM: 16GB <br>
+                                Ổ cứng: 512GB SSD <br>
+                                VGA: NVIDIA GeForce GTX 1650 4GB<br>
+                            </p>
+                            <b>Giá: 25.990.000vnđ</b>
+                            <span  class="add-cart">
+                                Số Lượng:
+                                <input id="sp007" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('sp007')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                        <div  class="col-sm-6 col-lg-3">
+                            <img src="image/T14_GEN_3_Mac24h.jpg">
+                            <h2>Lenovo Thinkpad T14 Gen 3 21AH00JQVN</h2>
+                            <p>
+                                CPU: Intel® Core™ i5-1235U <br>
+                                Ram: 8GB <br>
+                                Ổ cứng: 512GB SSD <br>
+                                VGA: Intel Iris Xe Graphics
+                            </p>
+                            <b>Giá: 27.190.000vnđ</b>
+                            <span  class="add-cart">
+                                Số Lượng:
+                                <input id="sp008" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('sp008')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                    </section>
+                </div>
+                <article class="title">		
+                    <div >
+                        <h2 id="titl3" class="title-header">Acer</h2>
+                    </div>
+                </article>
+                <div id="access3" class="container-fluid accessory">
+                    <section class="row product" >
+                        <div  class="col-sm-6 col-lg-3">
+                            <img src="image/acer-aspire7-a715-75g-58u4.jpg">
+                            <h2>Acer Aspire 7 Gaming A715 75G 58U4</h2>
+                            <p>CPU: Intel® Core™ i5-10300H<br>
+                                RAM: 8GB <br>
+                                Ổ cứng: 512GB SSD <br>
+                                VGA: NVIDIA GeForce GTX 1650 4GB
+                            </p>
+                            <b>Giá: 21.990.000vnđ</b>
+                            <span  class="add-cart">
+                                Số Lượng:
+                                <input id="sp009" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('sp009')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="image/acer-swift-3-sf314-511-55qe.png">
+                            <h2>Acer Swift 3 SF314 511 55QE</h2>
+                            <p>
+                                CPU: Intel® Core™ i5-1135G7 <br>
+                                RAM: 16GB <br>
+                                Ổ cứng: 512GB SSD <br>
+                                VGA: Intel Iris Xe Graphics
+                            </p>
+                            <b>Giá: 22.990.000vnđ</b>
+                            <span  class="add-cart">
+                                Số Lượng:
+                                <input id="sp010" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('sp010')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                        <div  class="col-sm-6 col-lg-3">
+                            <img src="image/acer_swift_3_sf314_512_56QN.jpg">
+                            <h2>Acer Swift 3 SF314 512 56QN</h2>
+                            <p>
+                                CPU: Intel® Core™ i5-1240P <br>
+                                RAM: 16GB <br>
+                                Ổ cứng: 512GB SSD <br>
+                                VGA: Intel Iris Xe Graphics
+                            </p>
+                            <b>Giá: 23.990.000vnđ</b>
+                            <span  class="add-cart">
+                                Số Lượng:
+                                <input id="sp011" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('sp011')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                        <div  class="col-sm-6 col-lg-3">
+                            <img src="image/acer_nitro_5_an515_58_52sp_1.jpg">
+                            <h2>Acer Nitro Gaming AN515-58-52SP</h2>
+                            <p>
+                                CPU: Intel® Core™ i5-12500H <br>
+                                RAM: 8GB <br>
+                                Ổ cứng: 512GB SSD <br>
+                                VGA: NVIDIA GeForce RTX 3050 4GB
+                            </p>
+                            <b>Giá: 26.490.000vnđ</b>
+                            <span  class="add-cart">
+                                Số Lượng:
+                                <input id="sp012" size="3" value="0" min="0" max="100" type="number" onKeyDown="return false"/> 
+                                <button onclick="addCart('sp012')" class="btn btn-primary">Đặt hàng</button>
+                            </span>
+                        </div>
+                    </section>
+                </div>
+            </article>						
+        </main>
+        <footer class="container-fluid">
+            <div id="container" class="row">
+                <div class="col-sm-12 col-md-4 column contact">
+                    <h3>Liên hệ</h3>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-map-marker"></i></span>
+                            <p>Khu II, Đ. 3/2, Xuân Khánh, Ninh Kiều, Cần Thơ</p>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone"></i></span>
+                            <p>+840123456789</p>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope-o"></i></span>
+                            <p>***@gmail.com</p>
+                        </ul>
+                </div>
+                <div class="col-sm-12 col-md-4 column links">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="trangchu.html">Trang Chủ</a></li>
+                        <li><a href="sanpham.html">Sản Phẩm</a></li>
+                        <li><a href="phukien.html">Phụ Kiện</a></li>
+                        <li><a href="dangnhap.html">Đăng Nhập</a></li>
+                        <li><a href="dangky.html">Đăng Ký</a></li>
+                        <li><a href="lienhe.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-4 column about">
+                    <h3>Mạng xã hội</h3>
+                    <ul class="social-icons">
+                        <li><a href="#" class="fa fa-facebook" style="font-size :20px;"></a></li>
+                        <li><a href="#" class="fa fa-instagram" style="font-size: 20px;"></a></li>
+                        <li><a href="#" class="fa fa-twitter" style="font-size: 20px;"></a></li>
+                        <li><a href="#" class="fa fa-pinterest" style="font-size: 20px;"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#top" class="gotop"><img src="./imgs/ic-top.png"
+                width="50"></a></p>
+        </footer>
+        <script src="./bootstrap-5.2.3-dist/js/bootstrap.bundle.js"></script>
+        <script src="./jQuery/jquery-3.6.1.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Đăng Ký</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="css/vinh.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vinh.js"></script>
+        <script src="js/filescript.js"></script>
+        <script>window.onload=function(){showCart();};</script>
+    </head>
+    <body class="bg-dn">
+        <header>
+            <div class="task-header"><!--thanh1-->
+                <div class="t-head"><!--logo-->
+                    <a href="trangchu.html"><img src="./image/logo.jpg" alt="" id="logo-header"></a>
+                </div>
+                <div class="input-head one"><!--ô tk-->
+                        <input type="text" id="search" placeholder="Tìm kiếm...">
+                        <button class="bt fa fa-search"></button>
+                </div>
+                <div>
+                    <i onclick="openCart()"class="fa fa-shopping-cart icon-pink"></i>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navi">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse task-header2" id="collapsibleNavId">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0" id="header2-menu">
+                            <li><a href="trangchu.html">Trang Chủ</a></li>
+                            <li><a href="sanpham.html">Sản Phẩm</a></li>
+                            <li><a href="phukien.html">Phụ Kiện</a></li>
+                            <li><a href="dangnhap.html">Đăng Nhập</a></li>
+                            <li><a href="dangky.html">Đăng Ký</a></li>
+                            <li><a href="lienhe.html">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--nội dung-->
+        <main>
+            <div class="login-form">
+                <form onsubmit="return register(this);" action="#" method="post" enctype="application/x-www-form-urlencoded">
+                    <h1>ĐĂNG KÝ</h1>
+                    <div class="input-container">
+                        <i class="fa fa-user icon-i"></i>
+                        <input class="input-field" type="text"
+                        placeholder="Vui lòng nhập tên tài khoản" name="user">
+                    </div>		
+                    <div class="input-container">
+                        <i class="fa fa-envelope icon-i"></i>
+                        <input class="input-field" type="text"
+                        placeholder="Vui lòng nhập email" name="email">
+                    </div>		  
+                    <div class="input-container">
+                        <i class="fa fa-key icon-i"></i>
+                        <input class="input-field" type="password" placeholder="Vui lòng nhập mật khẩu" name="psw">
+                    </div>
+                    <div class="input-container">
+                        <i class="fa fa-key icon-i"></i>
+                        <input class="input-field" type="password" placeholder="Vui lòng nhập lại mật khẩu" name="psw1">
+                    </div>
+                    <div class="agree">
+                        <span>Thông qua việc tạo tài khoản, bạn đồng ý với<a href="#"> Điều khoản & Quyền riêng tư của chúng tôi</a>.</span>
+                    </div>
+                    <div class="btn-dn">
+                        <button type="submit" class="btn">Đăng Ký</button>
+                    </div>
+                </form>	
+            </div>	
+        </main>
+        <footer class="container-fluid">
+            <div id="container" class="row">
+                <div class="col-sm-12 col-md-4 column contact">
+                    <h3>Liên hệ</h3>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-map-marker"></i></span>
+                            <p>Khu II, Đ. 3/2, Xuân Khánh, Ninh Kiều, Cần Thơ</p>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone"></i></span>
+                            <p>+840123456789</p>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope-o"></i></span>
+                            <p>***@gmail.com</p>
+                        </ul>
+                </div>
+                <div class="col-sm-12 col-md-4 column links">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="trangchu.html">Trang Chủ</a></li>
+                        <li><a href="sanpham.html">Sản Phẩm</a></li>
+                        <li><a href="phukien.html">Phụ Kiện</a></li>
+                        <li><a href="dangnhap.html">Đăng Nhập</a></li>
+                        <li><a href="dangky.html">Đăng Ký</a></li>
+                        <li><a href="lienhe.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-4 column about">
+                    <h3>Mạng xã hội</h3>
+                    <ul class="social-icons">
+                        <li><a href="#" class="fa fa-facebook" style="font-size :20px;"></a></li>
+                        <li><a href="#" class="fa fa-instagram" style="font-size: 20px;"></a></li>
+                        <li><a href="#" class="fa fa-twitter" style="font-size: 20px;"></a></li>
+                        <li><a href="#" class="fa fa-pinterest" style="font-size: 20px;"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#top" class="gotop"><img src="./imgs/ic-top.png"
+                width="50"></a></p>
+        </footer>
+        <script src="./bootstrap-5.2.3-dist/js/bootstrap.bundle.js"></script>
+        <script src="./jQuery/jquery-3.6.1.min.js"></script>
+    </body>
+</html>

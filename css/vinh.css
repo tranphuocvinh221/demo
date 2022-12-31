@@ -1,0 +1,110 @@
+body.bg-dn{
+    background-image: url(./bann.jpg);
+}
+main{
+    background-size: cover;
+    font-family: sans-serif;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    text-align: center;
+}
+.avatar{
+    width: 150px;
+}
+.login-form{
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 10px 10px 10px 5px #021329;
+}
+h1{ 
+    margin: 20px;
+    color: #082ff1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.input-container{
+    margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+}
+.input-container input{
+    border: 3px solid #1a73e8;
+    border-radius: 100px;
+    height: 40px;
+    width: 300px;
+    font-size: 17px;
+    padding-left: 35px;
+}
+.input-container textarea{
+    width: 300px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 35px;
+    border: 1px solid #1a73e8;
+}
+.input-container input:hover, textarea:hover {
+    box-shadow: 5px 5px 5px #1a73e8;
+}
+.icon-i{
+    position: absolute;
+    left: 85px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #144686;
+}
+.fa-file{
+    position: absolute;
+    left: 85px;
+    top: 20px;
+    transform: translateY(-50%);
+    color: #144686;
+}
+.btn{
+    background: #1a73e8;
+    color: #fff;
+    cursor: pointer;
+    border: #1a73e8;
+    height: 40px;
+    width: 300px;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: large;
+}
+.btn:hover {
+    height: 45px;
+    width: 305px;
+    background-image: linear-gradient(to top, #0cb0f6 0%, #0e41e8 100%);
+}
+.btn-dn{
+    margin-top: 20px;
+    text-align: center;
+}
+.text-form{
+    position: relative;
+    margin-bottom: 50px;
+}
+.rmb, .forgot{
+    position: absolute;
+    font-size: 17px;
+}
+.rmb{
+    left: 80px;
+}
+.forgot {
+    right: 80px;
+}
+.forgot a, .agree a{
+    color: #082ff1;
+    text-decoration: none;
+}
+.agree{
+    margin: 0px 80px;
+}
